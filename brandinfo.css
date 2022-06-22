@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(25,2,2);
+}
+.box1{
+    border: solid 2px wheat;
+    width: 998px;
+    height: 650px;
+    margin: 75px;
+    margin-left: 10%;
+    border-radius: 7%;
+    background-color: rgb(23,2,1);
+}
+.photo{
+    margin-left: 55%;
+    margin-top: -500px;
+
+}
+#photo2{
+    margin-left: 10%;
+    margin-top: 3%;
+
+}
+#play{
+    color: #d2051e;
+    margin-top: -346px;
+    margin-left: 42.5%;
+    font-size: 32px;
+    /* margin-left: 45%; */
+
+}
+.content{ 
+    width: 100%;
+    transform: translateY(-50%);
+    color: white;
+    margin: 10%;
+    margin-top: 20%;
+  }
+ .content h1{ 
+    font-size: 70px;
+    margin-top: 80px;
+    font-family: 'Bad Script', cursive;
+  
+  }
+  .content h1 span{
+      color: white;
+      font-size: 22px;
+      /* border: solid 3px white;
+      padding: 3px 20px;
+      border-radius: 5px; */
+
+  }
+  .content h1 span a{
+      color: white;
+  }
+  .fa-long-arrow-left{
+      margin-left: 48%;
+      
+      
+  }
+.content p{
+    font-weight: 100;
+    line-height: 25px;
+    color: rgb(147, 140, 140);
+  }
+  .content2{
+    width: 100%;
+    transform: translateY(-50%);
+    color: white;
+    margin-left: 55%;
+    margin-top: -12%;
+    /* margin: 10%; 
+    margin-top: 20%; */
+
+  }
+  .content2 p{
+    font-weight: 100;
+    line-height: 25px;
+    color: rgb(147, 140, 140);
+  }

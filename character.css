@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+}
+.box2{
+    border: solid 2px wheat;
+    width: 998px;
+    height: 920px;
+    margin: 75px;
+    margin-left: 10%;
+    border-radius: 7%;
+    background-color: rgb(23,2,1);
+}
+.three{
+    margin-left: 70px; 
+}
+.three h1{ 
+    font-size: 60px;
+    margin-top: 80px;
+    font-family: 'Bad Script', cursive;
+    color: white;
+  }
+.three p{ 
+    font-weight: 100;
+    line-height: 25px;
+    color: rgb(147, 140, 140);
+  }
+.three h3{
+    color: white;
+}  
+.center{
+    margin-top: -480px;
+    margin-left: 30%;
+}
+.prduct{
+    margin-top: -350px;
+    margin-left: 78%;
+}
+.prduct h3{
+    color: white;
+}
+.prduct p{ 
+    font-weight: 100;
+    line-height: 25px;
+    color: rgb(147, 140, 140);
+    
+  }
+.ring h1{
+    color: rgb(252,196,130);
+    font-family: 'Bad Script', cursive;
+    font-size: 40px;
+    margin-top: 100px;
+    text-align: center;
+
+}  
+.rings{
+    display: flex;
+    margin-left: 20%; 
+    color: rgb(147, 140, 140)
+    
+}  
+.ring2{ 
+    margin-left: 25%;
+    
+}
+.ring3{
+    margin-left: 23%;
+}
+.rings span{
+    font-size: 20px;
+    color: white;
+}
+/* #bottle{
+    margin-top: 120px;
+    /* margin-left: 60%; */
+

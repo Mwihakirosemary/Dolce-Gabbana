@@ -1,0 +1,109 @@
+/* font-family: 'Bad Script', cursive; */
+body{
+    background-color: black;
+    
+}
+.box{
+    border: solid 2px wheat;
+    width: 998px;
+    height: 650px;
+    margin: 75px;
+    margin-left: 10%;
+    border-radius: 7%;
+    background-color: rgb(23,2,1);
+    
+    /* background-image: url('dolce-removebg-preview.png'); */
+    
+    /* margin: 30px 20px 30px 20px; */
+}
+img{
+  float: right;
+  margin-top: 40px;
+}
+.navbar{
+  width:75%;
+  margin: auto;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 48%;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: rgb(147, 140, 140);
+}
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #D2051E;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after{
+  width: 100%;
+}
+.content{
+  width: 100%;
+  margin-top: 20%;
+  /* position: absolute; */
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+}
+.content h1{
+  font-size: 70px;
+  margin-top: 80px;
+  font-family: 'Bad Script', cursive;
+
+}
+.content p{
+  margin: 20px;
+  font-weight: 100;
+  line-height: 25px;
+  color: rgb(147, 140, 140);
+}
+button{
+  width: 130px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+span{
+  background: #D2051E;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+button:hover span{
+  width: 100%;
+}
+button:hover{
+  border: none;
+}
+.lang{
+  margin-right: 66%;
+  margin-top: 90px;
+}
